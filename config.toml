@@ -15,7 +15,8 @@ enableRobotsTXT = true
     weight = 1
     contentDir = "content/en"
     # languageDirection = 'rtl' for Right-To-Left languages
- 
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
